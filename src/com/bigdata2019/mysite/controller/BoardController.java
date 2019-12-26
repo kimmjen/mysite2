@@ -12,6 +12,16 @@ public class BoardController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		String action = request.getParameter("a");
+		
+		if("writeform".equals(action))
+		{
+			WebUtil.forward(request, response, "/WEB-INF/views/board/write.jsp");
+		}
+		
+		
+		else
 		WebUtil.forward(request, response, "/WEB-INF/views/board/list.jsp");
 	}
 

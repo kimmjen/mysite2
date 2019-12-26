@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 		<div id="footer">
-			<p>(c)opyright 2015, 2016, 2017, 2018, 2019</p>
+			<p>어떻게 해야 하죠 이것을 어떻게 하나요</p>
 		</div>
