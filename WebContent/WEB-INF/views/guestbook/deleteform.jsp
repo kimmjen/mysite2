@@ -26,18 +26,8 @@
 					<input type="password" name="password">
 					<input type="submit" value="확인">
 				</form>
-				<a href="">방명록 리스트</a>
+				<a href="list.jsp">방명록 리스트</a>
 			</div>
-		</div>
-		<div id="navigation">
-			<ul>
-				<li><a href="">김제민</a></li>
-				<li><a href="">방명록</a></li>
-				<li><a href="">게시판</a></li>
-			</ul>
-		</div>
-		<div id="footer">
-			<p>(c)opyright 2015, 2016, 2017, 2018</p>
 		</div>
 	</div>
 </body>
